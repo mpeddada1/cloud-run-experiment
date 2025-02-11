@@ -37,7 +37,7 @@ This outputs the following:
 {"length":5}
 ```
 
-Not including `-H "Authorization: Bearer $(gcloud auth print-identity-token)"` will results in:
+Not including `-H "Authorization: Bearer $(gcloud auth print-identity-token)"` will result in:
 
 ```
 <html><head>
