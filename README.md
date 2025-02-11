@@ -30,6 +30,10 @@ Service URL: https://string-length-service-931854040550.us-central1.run.app
 Call the following command:
 ```
 curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $(gcloud auth print-identity-token)" -d '{"input": "hello"}' https://string-length-service-931854040550.us-central1.run.app
+```
+This outputs the following:
+
+```
 {"length":5}
 ```
 
