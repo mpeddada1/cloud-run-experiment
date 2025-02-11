@@ -13,7 +13,7 @@ gcloud builds submit --tag us-central1-docker.pkg.dev/mpeddada-test/cloud-run-ex
 
 This builds and pushes the image to artifact registry in the `mpeddada-test` project. 
 
-2. Deploy the Cloud Run service using the docker image build in Step 1:
+2. Deploy the Cloud Run service using the docker image built in Step 1:
 
 ```
 gcloud run deploy string-length-service --image us-central1-docker.pkg.dev/mpeddada-test/cloud-run-experiment/string-length-service --platform managed --region us-central1
